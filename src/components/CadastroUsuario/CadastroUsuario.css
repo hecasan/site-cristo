@@ -1,0 +1,40 @@
+/* src/components/CadastroUsuario/CadastroUsuario.css */
+
+.cadastro-usuario {
+   max-width: 400px;
+   margin: 0 auto;
+ }
+ 
+ h2 {
+   text-align: center;
+   color: #333;
+ }
+ 
+ form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ label {
+   margin: 10px 0;
+ }
+ 
+ input {
+   width: 100%;
+   padding: 8px;
+   margin-top: 4px;
+ }
+ 
+ button {
+   background-color: #007bff;
+   color: #fff;
+   padding: 10px;
+   margin-top: 10px;
+   cursor: pointer;
+   border: none;
+ }
+ 
+ button:hover {
+   background-color: #0056b3;
+ }
+ 
