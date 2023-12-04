@@ -38,3 +38,67 @@
    background-color: #0056b3;
  }
  
+ .cadastro-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 400px;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .cadastro-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 300px; /* ou qualquer valor desejado para limitar a largura do formulário */
+ }
+ 
+ .cadastro-form label {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 100%; /* Garante que o label ocupe toda a largura do container do formulário */
+   margin-bottom: 10px;
+ }
+ 
+ .cadastro-form input {
+   width: 100%;
+   padding: 5px;
+   margin-top: 3px;
+   margin-bottom: 10px;
+ }
+ 
+ .cadastro-form button {
+   width: 100%;
+   padding: 8px;
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .cadastro-usuario-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+ .cadastro-usuario-form {
+   width: 300px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ .mensagemErro {
+   color: red;
+ }
+ 
+ .mensagemSucesso {
+   color: green;
+ }
